@@ -1,0 +1,41 @@
+{
+  "name": "time-ago-in-words",
+  "version": "1.0.0",
+  "description": "A JS clone of Rails' time_ago_in_words",
+  "main": "dist/time-ago-in-words.cjs.js",
+  "module": "dist/time-ago-in-words.esm.js",
+  "browser": "dist/time-ago-in-words.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node test/spec",
+    "pretest": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schwad/time-ago-in-words.git"
+  },
+  "keywords": [
+    "time-ago-in-words",
+    "time",
+    "relative",
+    "time"
+  ],
+  "author": "Nick Schwaderer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schwad/time-ago-in-words/issues"
+  },
+  "homepage": "https://github.com/schwad/time-ago-in-words#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "rollup": "^2.70.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
