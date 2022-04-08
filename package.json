@@ -6,6 +6,7 @@
   "module": "dist/time-ago-in-words.esm.js",
   "browser": "dist/time-ago-in-words.umd.js",
   "scripts": {
+    "prepare": "build",
     "build": "rollup -c",
     "test": "node test/spec",
     "pretest": "npm run build"
